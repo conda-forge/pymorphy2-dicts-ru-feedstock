@@ -1,5 +1,5 @@
 {% set name = "pymorphy2-dicts-ru" %}
-{% set version = "2.4.404381.4453942" %}
+{% set version = "2.4.417127.4579844" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e636a633de4d37b32939fd9f97c1e65b109a5a14f6c87a83d1f44f505020bd4c
+  sha256: 78cad03adca605021abd387a3b2eb515c851b86e94682a1ef2354a2c74fcc196
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -30,7 +30,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE.txt
-  summary: 'Russian dictionaries for pymorphy2'
+  summary: Russian dictionaries for pymorphy2
 
 extra:
   recipe-maintainers:
