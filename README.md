@@ -5,11 +5,9 @@ Home: https://github.com/kmike/pymorphy2-dicts/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pymorphy2-dicts-ru-feedstock/blob/master/LICENSE.txt)
 
 Summary: Russian dictionaries for pymorphy2
-
-
 
 Current build status
 ====================
