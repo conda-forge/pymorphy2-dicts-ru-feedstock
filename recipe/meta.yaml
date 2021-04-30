@@ -10,7 +10,7 @@ source:
   sha256: 78cad03adca605021abd387a3b2eb515c851b86e94682a1ef2354a2c74fcc196
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -34,6 +34,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - mxr-conda
     - benhuff
     - oblute
     - mwilson8
